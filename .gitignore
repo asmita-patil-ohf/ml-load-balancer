@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Generated datasets and experiment results
+data/*.csv
+data/splits/
+data/plots/
+
+# Model artifacts (we will add these in Chunk 3)
+models/
+
+# Local environment and editor files
+.env
+.vscode/
+.DS_Store
